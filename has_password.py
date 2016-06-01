@@ -4,7 +4,7 @@ from getpass import getpass
 
 db = ChromeDB()
 
-print 'After you enter your password twice, all domain using that password will be displayed:'
+print 'After you enter your password twice, all domains using that password will be displayed:'
 password = getpass(prompt='Enter password: ')
 password2 = getpass(prompt='Confirm password: ')
 
